@@ -25,6 +25,8 @@ header {
 	margin: 0 auto;
 	width: 90%;
 	overflow: hidden;
+	border: #008aff 1px solid;
+	box-sizing: border-box;
 }
 .logo {
 	width: 10%;
@@ -70,25 +72,38 @@ header {
 /* Header Section Ends */
 /* Banner Starts */
 .banner {
-	padding: 0px 0;
-	text-align: center;
+	padding: 20px 0;
 }
 .banner-container {
+	width: 65%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 30 auto;
+
 	overflow: hidden;
 }
 .banner-heading {
 	font-size: 48px;
+	padding: 0 150px;
+	font-weight: 700px;
 	margin-bottom: 0;
+	line-height: 60px;
 }
 .banner-heading span {
-	display: block;
 	color: #4d89fb;
 }
 .banner-text {
+	line-height: 25px;
+	margin: 10px 30px;
+	padding: 0 70px;
 }
 .banner-img {
+	width: 80%;
+	border: 1px solid red;
+	margin: 0 auto;
 }
 .banner-img img {
+	width: 100%;
 }
 
 /* Banner ends */
@@ -97,14 +112,16 @@ header {
 .highlights {
 	/* padding: 30px 0; */
 }
-.high-conatiner {
+/* .high-conatiner {
 	margin: 0 20%;
 	overflow: hidden;
-}
+} */
 .high-count {
 	width: 50%;
 	float: left;
-	padding: 25px 20px 10px 10px;
+	/* padding: 25px 20px 10px 10px; */
+
+	padding: 25px 17px 0px 62px;
 	box-sizing: border-box;
 }
 .high-count p {
@@ -112,6 +129,8 @@ header {
 }
 .high-count p span {
 	display: block;
+	margin-right: 15px;
+
 	font-size: 40px;
 	font-weight: 700;
 	color: #f15767;
@@ -119,31 +138,37 @@ header {
 .high-text {
 	width: 50%;
 	float: right;
-	padding: 0px 10px 10px 20px;
+
+	padding: 0px 10px 0px 0px;
 	box-sizing: border-box;
 }
 .high-text p {
 	text-align: left;
-
 	font-size: 40px;
 	font-weight: 700;
-	color: #0f2656d;
+	color: #0f2656;
 }
 /* Highlights ends */
 
 /* service section starts */
-.service-container {
+/* .service-container {
 	margin: 30px 10%;
 	/* margin: 25px auto;
-	padding: 25px 100px; */
+	padding: 25px 100px; 
 	overflow: hidden;
-}
+} 
+*/
 .service-box {
-	width: 28%;
+	width: 31%;
 	float: left;
+	margin: 1% 1%;
+	padding: 40px 2%;
+	/* text-align: center; */
 	box-sizing: border-box;
-	margin: 0 25px;
-	text-align: center;
+}
+.service-box p {
+	text-align: left;
+	/* padding: 0 30px; */
 }
 .service-box:first-child {
 	background-color: #fdebed;
@@ -160,20 +185,21 @@ header {
 /* service section ends */
 
 /* footer */
-.footer {
-	display: block;
-	height: 70px;
+footer {
 	background-color: #008aff;
 	text-align: center;
 	margin-top: 70px;
-	padding-top: 20px;
+	padding: 10px 10px;
 	color: #9ed2ff;
 }
-.footer p {
+footer p {
 	font-size: 12px;
 	font-weight: 700;
 }
-.footer p span {
+footer p a {
 	font-size: 16px;
 	font-weight: 700;
+
+	text-decoration: none;
+	color: #9ed2ff;
 }
