@@ -1,0 +1,179 @@
+/* Common CSS Start */
+body {
+	margin: 0;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #0f2656;
+}
+
+/* color: 
+Primary text: 2c3861 (NB)
+Menu Itmes: SkyBlue 493a6a
+*/
+
+/* Common CSS End */
+
+/* Header Section Start */
+header {
+	padding: 5px 0;
+	border-bottom: #d0cfd3 solid 2px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo {
+	width: 10%;
+
+	float: left;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.menu-bar {
+	width: 50%;
+
+	float: right;
+	margin-top: 6px;
+}
+
+.menu-bar ul {
+	float: right;
+}
+
+.menu-bar ul li {
+	list-style: none;
+	float: left;
+}
+
+.menu-bar ul li a {
+	display: inline-block;
+	padding: 0 25px;
+	color: #0f2656;
+	text-decoration: none;
+	transition: 5ms;
+}
+
+.menu-bar ul li a:last-child {
+	padding-right: 0;
+}
+
+.menu-bar ul li a:hover {
+	color: #493a6a;
+}
+/* Header Section Ends */
+/* Banner Starts */
+.banner {
+	padding: 0px 0;
+	text-align: center;
+}
+.banner-container {
+	overflow: hidden;
+}
+.banner-heading {
+	font-size: 48px;
+	margin-bottom: 0;
+}
+.banner-heading span {
+	display: block;
+	color: #4d89fb;
+}
+.banner-text {
+}
+.banner-img {
+}
+.banner-img img {
+}
+
+/* Banner ends */
+
+/* highlights Start */
+.highlights {
+	/* padding: 30px 0; */
+}
+.high-conatiner {
+	margin: 0 20%;
+	overflow: hidden;
+}
+.high-count {
+	width: 50%;
+	float: left;
+	padding: 25px 20px 10px 10px;
+	box-sizing: border-box;
+}
+.high-count p {
+	text-align: right;
+}
+.high-count p span {
+	display: block;
+	font-size: 40px;
+	font-weight: 700;
+	color: #f15767;
+}
+.high-text {
+	width: 50%;
+	float: right;
+	padding: 0px 10px 10px 20px;
+	box-sizing: border-box;
+}
+.high-text p {
+	text-align: left;
+
+	font-size: 40px;
+	font-weight: 700;
+	color: #0f2656d;
+}
+/* Highlights ends */
+
+/* service section starts */
+.service-container {
+	margin: 30px 10%;
+	/* margin: 25px auto;
+	padding: 25px 100px; */
+	overflow: hidden;
+}
+.service-box {
+	width: 28%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0 25px;
+	text-align: center;
+}
+.service-box:first-child {
+	background-color: #fdebed;
+}
+.service-box:nth-child(2) {
+	background-color: #ebf9f4;
+}
+.service-box:last-child {
+	background-color: #fff7e8;
+}
+.service-box-image {
+	width: 100%;
+}
+/* service section ends */
+
+/* footer */
+.footer {
+	display: block;
+	height: 70px;
+	background-color: #008aff;
+	text-align: center;
+	margin-top: 70px;
+	padding-top: 20px;
+	color: #9ed2ff;
+}
+.footer p {
+	font-size: 12px;
+	font-weight: 700;
+}
+.footer p span {
+	font-size: 16px;
+	font-weight: 700;
+}
