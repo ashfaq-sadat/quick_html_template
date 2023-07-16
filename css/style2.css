@@ -25,7 +25,6 @@ header {
 	margin: 0 auto;
 	width: 90%;
 	overflow: hidden;
-	border: #008aff 1px solid;
 	box-sizing: border-box;
 }
 .logo {
@@ -57,7 +56,7 @@ header {
 .menu-bar ul li a {
 	display: inline-block;
 	padding: 0 25px;
-	color: #0f2656;
+	color: #6389f8;
 	text-decoration: none;
 	transition: 5ms;
 }
@@ -145,8 +144,8 @@ header {
 	float: left;
 	margin: 1% 1%;
 	padding: 40px 2%;
-	/* text-align: center; */
 	box-sizing: border-box;
+	opacity: 0.8;
 }
 .service-box p {
 	text-align: left;
@@ -163,6 +162,11 @@ header {
 }
 .service-box-image {
 	width: 100%;
+}
+
+.service-box:hover {
+	border: #008aff solid 1px;
+	opacity: 1;
 }
 /* service section ends */
 
