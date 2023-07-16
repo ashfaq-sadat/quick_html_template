@@ -112,15 +112,16 @@ header {
 	float: left;
 	/* padding: 25px 20px 10px 10px; */
 
-	padding: 25px 17px 0px 62px;
+	padding: 30px 17px 0px 65px;
 	box-sizing: border-box;
 }
 .high-count p {
 	text-align: right;
+	line-height: 30px;
 }
 .high-count p span {
 	display: block;
-	margin-right: 15px;
+	margin-bottom: 15px;
 	font-size: 40px;
 	font-weight: 700;
 	color: #f15767;
@@ -128,11 +129,10 @@ header {
 .high-text {
 	width: 50%;
 	float: right;
-
-	padding: 0px 10px 0px 0px;
+	padding: 0px 80px 0px 0px;
 	box-sizing: border-box;
 }
-.high-text p {
+.high-text h2 {
 	text-align: left;
 	font-size: 40px;
 	font-weight: 700;
