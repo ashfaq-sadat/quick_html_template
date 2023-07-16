@@ -95,11 +95,10 @@ header {
 .banner-text {
 	line-height: 25px;
 	margin: 10px 30px;
-	padding: 0 70px;
+	padding: 0 33px;
 }
 .banner-img {
 	width: 80%;
-	border: 1px solid red;
 	margin: 0 auto;
 }
 .banner-img img {
@@ -109,13 +108,6 @@ header {
 /* Banner ends */
 
 /* highlights Start */
-.highlights {
-	/* padding: 30px 0; */
-}
-/* .high-conatiner {
-	margin: 0 20%;
-	overflow: hidden;
-} */
 .high-count {
 	width: 50%;
 	float: left;
@@ -130,7 +122,6 @@ header {
 .high-count p span {
 	display: block;
 	margin-right: 15px;
-
 	font-size: 40px;
 	font-weight: 700;
 	color: #f15767;
@@ -148,16 +139,7 @@ header {
 	font-weight: 700;
 	color: #0f2656;
 }
-/* Highlights ends */
 
-/* service section starts */
-/* .service-container {
-	margin: 30px 10%;
-	/* margin: 25px auto;
-	padding: 25px 100px; 
-	overflow: hidden;
-} 
-*/
 .service-box {
 	width: 31%;
 	float: left;
