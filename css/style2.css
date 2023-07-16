@@ -77,14 +77,14 @@ header {
 	width: 65%;
 	text-align: center;
 	margin: 0 auto;
-	padding: 30 auto;
+	padding: 30px auto;
 
 	overflow: hidden;
 }
 .banner-heading {
 	font-size: 48px;
 	padding: 0 150px;
-	font-weight: 700px;
+	font-weight: 700;
 	margin-bottom: 0;
 	line-height: 60px;
 }
