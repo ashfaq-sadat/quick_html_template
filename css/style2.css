@@ -246,7 +246,7 @@ footer p a {
 	}
 	.menu-container {
 		margin: 11px 0;
-		display: inline-block;
+		/* display: inline-block; */
 		float: right;
 	}
 	.banner-heading {
@@ -257,5 +257,45 @@ footer p a {
 	.banner-text {
 		margin: 0;
 		padding: 10px auto;
+	}
+	.highlights {
+		padding: 0;
+	}
+	.highlights {
+		padding: 15px 0;
+	}
+	.high-count {
+		width: 50%;
+		float: left;
+		padding: 0px 10px 0 0;
+		box-sizing: border-box;
+	}
+	.high-count p {
+		padding-top: 15px;
+		text-align: right;
+		line-height: 15px;
+	}
+	.high-count p span {
+		display: block;
+		margin-bottom: 15px;
+		font-size: 30px;
+		font-weight: 700;
+		color: #f15767;
+	}
+	.high-text {
+		margin: 0 0;
+		width: 50%;
+		float: right;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	.high-text h2 {
+		text-align: left;
+		font-size: 25px;
+		font-weight: 700;
+		color: #0f2656;
+	}
+	.service-box {
+		width: 100%;
 	}
 }
