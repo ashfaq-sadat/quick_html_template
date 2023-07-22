@@ -68,6 +68,19 @@ header {
 .menu-bar ul li a:hover {
 	color: #493a6a;
 }
+
+/* menu icon */
+.menu-container {
+	display: none;
+}
+.menu-icon {
+	width: 35px;
+	height: 5px;
+
+	background-color: black;
+	margin: 6px 0;
+}
+
 /* Header Section Ends */
 /* Banner Starts */
 .banner {
@@ -195,3 +208,54 @@ footer p a {
 	color: #9ed2ff;
 }
 /* footer ends */
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+	.logo {
+		width: 18%;
+		height: 67px;
+		padding-top: 5px;
+	}
+
+	.menu-bar {
+		display: none;
+	}
+
+	.menu-container {
+		margin: 17px 0 15px 0;
+		display: inline-block;
+		float: right;
+	}
+
+	/* Banner */
+	.banner-heading {
+		padding: 0 30px;
+		font-size: 2.5em;
+	}
+	.banner-heading span {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.logo {
+		width: 25%;
+	}
+	.menu-bar {
+		display: none;
+	}
+	.menu-container {
+		margin: 11px 0;
+		display: inline-block;
+		float: right;
+	}
+	.banner-heading {
+		padding: 0 0px;
+		font-size: 2em;
+		line-height: 1.5em;
+	}
+	.banner-text {
+		margin: 0;
+		padding: 10px auto;
+	}
+}
